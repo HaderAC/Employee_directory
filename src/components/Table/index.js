@@ -6,6 +6,7 @@ import Form from "../Form/";
 
 function Table() {
     const [userState, setUserList] = useState([]);
+    const userListCopy = [];
 
 
 
@@ -44,6 +45,7 @@ function Table() {
                 const data = await userSearch();
                 const userInfo = data.data.results[0];
                 users.push(userInfo);
+                userListCopy.push(userInfo);
             }
             setUserList(users);
             console.log(users);
@@ -52,9 +54,13 @@ function Table() {
         getUserInfo();
     }, []);
 
+    const filterUsers = (e) => {
+        console.log(e);
+    }
+
     return (
         <div>
-            <Form dispatchFunction={dispatch} />
+            <Form dispatchFunction={dispatch} filterFunction={filterUsers} />
 
             <table className="table-container">
                 <thead>

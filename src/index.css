@@ -13,11 +13,13 @@ body {
   align-items: center;
   /* color: yellow; */
   margin-bottom: 30px;
+  color: antiquewhite;
 }
 
 .table-container{
   width: 80%;
   margin: 60px auto;
+  
 
 }
 
@@ -39,4 +41,23 @@ td, th {
 .center-text {
   text-align: center;
 }
+form {
+  background: linear-gradient(90deg, rgb(155, 143, 142) 0%, rgb(87, 77, 77) 18%, rgb(32, 24, 25) 30%, rgb(92, 13, 33) 53%, rgb(40, 67, 190) 100%);
+}
 
+.filter-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+
+}
+
+.filter-container input,
+.filter-container label {
+display: block;
+
+}
+.filter-container input{
+  margin: 15px 0;
+  padding: 4px;
+}
