@@ -48,14 +48,22 @@ function Table() {
                 userListCopy.push(userInfo);
             }
             setUserList(users);
-            console.log(users);
         }
 
         getUserInfo();
     }, []);
 
-    const filterUsers = (e) => {
-        console.log(e);
+    const filterUsers = (name) => {
+        const currentUsers = userState;
+        const filterdUsers = currentUsers.filter(user => {
+            if (user.name.first.toLowerCase().includes(name) || user.name.last.toLowerCase().includes(name)) {
+                return true;
+            } else {
+                return false;
+            }
+
+        });
+        setUserList(filterdUsers);
     }
 
     return (

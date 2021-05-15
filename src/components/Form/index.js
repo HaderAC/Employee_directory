@@ -2,7 +2,7 @@ import React, {useState}  from 'react';
 
 const Form = (props) => {
 
-    const [name, setName] = useState();
+    const [name, setName] = useState("");
 
     const handleRadioChange = (e) =>{
         console.log(e.target.value);
@@ -14,6 +14,7 @@ const Form = (props) => {
         e.preventDefault();
 
         props.filterFunction(name);
+        setName("");
 
     }
 
