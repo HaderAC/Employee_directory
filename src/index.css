@@ -6,12 +6,30 @@ body {
 
 .header {
   width: 100%;
-  background:rgb(111, 0, 255);
+  /* background:rgb(111, 0, 255); */
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  /* color: yellow; */
   margin-bottom: 30px;
 }
+
+.table-container{
+  width: 80%;
+  margin: 60px auto;
+
+}
+
+table,th,td {
+  border:solid black;
+
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
 
