@@ -4,3 +4,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.header {
+  width: 100%;
+  background:rgb(111, 0, 255);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  margin-bottom: 30px;
+}
+
