@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HaderAC/Employee_directory/static/css/main.f0ac3528.chunk.css",
+    "main.js": "/HaderAC/Employee_directory/static/js/main.c9b96d51.chunk.js",
+    "main.js.map": "/HaderAC/Employee_directory/static/js/main.c9b96d51.chunk.js.map",
+    "runtime-main.js": "/HaderAC/Employee_directory/static/js/runtime-main.214209f3.js",
+    "runtime-main.js.map": "/HaderAC/Employee_directory/static/js/runtime-main.214209f3.js.map",
+    "static/js/2.90318808.chunk.js": "/HaderAC/Employee_directory/static/js/2.90318808.chunk.js",
+    "static/js/2.90318808.chunk.js.map": "/HaderAC/Employee_directory/static/js/2.90318808.chunk.js.map",
+    "index.html": "/HaderAC/Employee_directory/index.html",
+    "static/css/main.f0ac3528.chunk.css.map": "/HaderAC/Employee_directory/static/css/main.f0ac3528.chunk.css.map",
+    "static/js/2.90318808.chunk.js.LICENSE.txt": "/HaderAC/Employee_directory/static/js/2.90318808.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.214209f3.js",
+    "static/js/2.90318808.chunk.js",
+    "static/css/main.f0ac3528.chunk.css",
+    "static/js/main.c9b96d51.chunk.js"
+  ]
+}
