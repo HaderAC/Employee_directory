@@ -33,7 +33,7 @@ function Table() {
                 return state
         }
     }
-    const [ageState, dispatch] = useReducer(ageSort, false);
+    // const [ageState, dispatch] = useReducer(ageSort, false);
 
     useEffect(() => {
         const getUserInfo = async () => {
